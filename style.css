@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+}
+#page1 {
+  background: url(eiffel-tower-in-paris-151-medium.jpg) no-repeat center center;
+}
+#page2 {
+  background: url(Japan-2107x1406.jpg) no-repeat center center;
+}
+#page3 {
+  background: url(bwsDTWetLQuuwXQo44J5ZV.jpeg) no-repeat center center;
+}
+#page4 {
+  background: url(475464-Los-Angeles.webp) no-repeat center;
+}
+#page5 {
+  background: url(skyline-Dubai-United-Arab-Emirates.webp) no-repeat center;
+}
+.page a {
+  padding: 8px 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.page h1 {
+  font-size: 50px;
+
+  border-radius: 20px;
+  font: italic;
+  text-shadow: 3px 3px 5px rgb(128, 151, 166);
+}
+.page p {
+  font-size: 25px;
+  padding: 20px;
+  background-color: rgb(126, 154, 175);
+  border-radius: 15px;
+}
+.t {
+  color: rgb(82, 164, 0);
+}
+.c {
+  color: rgb(148, 5, 5);
+}
